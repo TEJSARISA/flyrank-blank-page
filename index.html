@@ -3,13 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tej Sarisa</title>
+  <title>Tej Sarisa - AI & Mechatronics Engineer</title>
   <style>
-    body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f5f5f5; }
-    h1 { font-size: 2.5rem; color: #333; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+    .container { max-width: 700px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { font-size: 1.1rem; color: #666; margin-bottom: 32px; }
+    .bio { font-size: 1rem; line-height: 1.7; margin-bottom: 40px; color: #444; }
+    .links { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+    .links a { display: inline-block; padding: 10px 20px; background: #111; color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.9rem; font-weight: 500; transition: background 0.2s; }
+    .links a:hover { background: #333; }
+    .links a.secondary { background: #fff; color: #111; border: 1.5px solid #ccc; }
+    .links a.secondary:hover { border-color: #999; }
+    h2 { font-size: 1.3rem; font-weight: 600; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+    .projects { margin-bottom: 48px; }
+    .project-item { background: #fff; border: 1px solid #e8e8e8; border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+    .project-item h3 { font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
+    .project-item p { font-size: 0.9rem; color: #555; line-height: 1.5; }
+    .tag { display: inline-block; background: #f0f0f0; padding: 3px 10px; border-radius: 20px; font-size: 0.78rem; color: #666; margin-top: 10px; margin-right: 6px; }
+    footer { border-top: 1px solid #eee; padding-top: 24px; font-size: 0.85rem; color: #999; }
   </style>
 </head>
 <body>
-  <h1>Tej Sarisa</h1>
+  <div class="container">
+    <h1>Tej Sarisa</h1>
+    <p class="subtitle">AI & Mechatronics Engineer | FlyRank AI Intern</p>
+    
+    <p class="bio">
+      B.Tech in Mechatronics from LPU. Currently building AI-augmented workflows and exploring the intersection of robotics, automation, and large language models. Previously worked at TalentEQ Technology as a Graduate Engineer Trainee. Interested in AI agent systems, portfolio automation, and German university programs in AI/Robotics.
+    </p>
+
+    <div class="links">
+      <a href="https://linkedin.com/in/tejeshsarisa" target="_blank">LinkedIn</a>
+      <a href="https://github.com/TEJSARISA" target="_blank">GitHub</a>
+      <a href="mailto:tejeshsarisa@gmail.com" class="secondary">Email</a>
+    </div>
+
+    <div class="projects">
+      <h2>Projects & Work</h2>
+      
+      <div class="project-item">
+        <h3>Job Application Research Scout Agent</h3>
+        <p>A Claude Project-based AI agent that takes a company name + job description and outputs a structured research brief: company overview, tech stack, recent news, CV tailoring points, and cover letter angles. Reduces research time from 90 min to under 5 min.</p>
+        <span class="tag">Claude AI</span>
+        <span class="tag">Prompt Engineering</span>
+        <span class="tag">AI Agents</span>
+      </div>
+
+      <div class="project-item">
+        <h3>AI Research Pipeline (FL-04 Workflow)</h3>
+        <p>5-step automated pipeline using NotebookLM + Claude for generating weekly industry briefs. Ran on 5 different topics, documented 5 known failure points, estimated 8.5 hours saved per 5 briefs vs manual research.</p>
+        <span class="tag">NotebookLM</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Workflow Automation</span>
+      </div>
+
+      <div class="project-item">
+        <h3>Portfolio Site (This Page)</h3>
+        <p>Hand-coded HTML/CSS personal site hosted on GitHub Pages. Built as part of FlyRank AI Internship Week 4-5 deliverables.</p>
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">GitHub Pages</span>
+      </div>
+    </div>
+
+    <footer>
+      <p>Tej Sarisa &mdash; Jalandhar, Punjab, India &mdash; Open to AI/tech roles and German university programs</p>
+    </footer>
+  </div>
 </body>
 </html>
